@@ -6,13 +6,13 @@ if (!empty($_POST))
 		/* SETTINGS */
 
 		// email "subject"
-		$title = 'New message from my Landing page';
+		$title = 'Woohoo!! New message from my Portfolio page!';
 		// email field "From" - name of sender (e.g. your first & last name)
 		$from_name = "John Jonson";
 		// email field "From" - email of sender (e.g. "robot@domain.com")
 		$from_email = "robot@domain.com";
 		// Email to receive message - PUT YOUR EMAIL HERE
-		$to = "my@email.com";
+		$to = "vyeung.wt@gmail.com";
 		
 		/* END OF SETTINGS */
 		
