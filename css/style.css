@@ -181,8 +181,20 @@ b, strong {
   top: 0;
 }
 
-.container {
+.about-container {
+  border: 5px solid seagreen;
+  border-radius: 1em;
+  padding: 1em;
+  min-height: 100vh;
   position: relative;
+  padding-top: 120px;
+  border-color: rgba(0, 0, 0, 0.15);
+
+}
+
+.header_1 {
+  background-color: #fffff5;
+background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");
 }
 
 /* Header 2 */
