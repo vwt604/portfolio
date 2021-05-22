@@ -182,19 +182,25 @@ b, strong {
 }
 
 .about-container {
-  border: 5px solid seagreen;
+  margin: 0 auto;
+  border: 5px solid #868B8E;
   border-radius: 1em;
   padding: 1em;
-  min-height: 100vh;
+  min-height: 90vh;
+  width: 80vw;
+  justify-content: center;
   position: relative;
-  padding-top: 120px;
-  border-color: rgba(0, 0, 0, 0.15);
+  padding-top: 50px;
 
 }
 
 .header_1 {
-  background-color: #fffff5;
-background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");
+  min-height: 90vh;
+  background: #fff;
+  background-image: radial-gradient(#eee 15%, transparent 0), radial-gradient(#eee 15%, transparent 0);
+  background-size: 10px 10px;
+  background-position: 0 0, 15px 15px;
+  padding: 2em 7.5em;
 }
 
 /* Header 2 */
