@@ -2546,16 +2546,7 @@ b, strong {
 }
 
 /* Contact 1 */
-.contact_1 {
-  background: #141414 url(../i/contact_1_bg.jpg) no-repeat 50% 50%;
-  background-size: cover;
-}
 
-@media (-webkit-min-device-pixel-ratio: 1.25), (-o-min-device-pixel-ratio: 5/4), (min-resolution: 120dpi) {
-  .contact_1 {
-    background-image: url(../i/contact_1_bg_2x.jpg);
-  }
-}
 
 .contact_1 textarea.input {
   height: 170px;
