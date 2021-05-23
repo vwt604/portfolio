@@ -96,6 +96,16 @@ header nav {
   box-sizing: border-box;
 }
 
+/* #project-container {
+  padding: 2em 0;
+  border-bottom: solid 5px #E7D2CC;
+} */
+
+hr.solid {
+  border-top: solid 5px #E7D2CC;
+  margin: 2em 0;
+}
+
 .stack {
   margin-top: 20px;
   color: gray;
