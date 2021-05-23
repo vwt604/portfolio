@@ -187,13 +187,13 @@ b, strong {
   top: 0;
 }
 
-.about-container {
+header .about-container {
   margin: 0 auto;
   border: 5px solid #868B8E;
   border-radius: 1em;
   padding: 1em;
-  min-height: 90vh;
-  width: 80vw;
+  min-height: 500px;
+  width: 70vw;
   justify-content: center;
   position: relative;
   padding-top: 50px;
@@ -201,7 +201,7 @@ b, strong {
 }
 
 .header_1 {
-  min-height: 90vh;
+  min-height: 100vh;
   background: #fff;
   background-image: radial-gradient(#eee 15%, transparent 0), radial-gradient(#eee 15%, transparent 0);
   background-size: 10px 10px;
