@@ -96,7 +96,13 @@ header nav {
   box-sizing: border-box;
 }
 
-
+.stack {
+  margin-top: 20px;
+  color: gray;
+  font-size: 12px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
 
 nav.transparent {
   background: transparent;
