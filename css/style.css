@@ -197,17 +197,12 @@ b, strong {
   top: 0;
 }
 
-header .about-container {
+#about-container {
   margin: 0 auto;
-  border: 5px solid #E7D2CC;
+  border: 7px solid #E7D2CC;
   border-radius: 1em;
-  padding: 1em;
-  min-height: 500px;
+  padding: 2em;
   width: 70vw;
-  justify-content: center;
-  position: relative;
-  padding-top: 50px;
-
 }
 
 .header_1 {
