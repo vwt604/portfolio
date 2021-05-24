@@ -9301,13 +9301,22 @@
     opacity: 0.7; }
 
 .blue {
-  color: #1A578F; }
+  color: #1A578f; }
   .blue.link {
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s; }
     .blue.link:hover, .blue.link:focus {
       color: #102dce; }
+
+.purple {
+  color: #BB86FC; }
+  .purple.link {
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s; }
+    .purple.link:hover, .purple.link:focus {
+      color: #d1acfd; }
 
 .green {
   color: #18c967; }
