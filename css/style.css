@@ -11,6 +11,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background-color: black;
 }
 
 
@@ -198,13 +199,13 @@ b, strong {
   top: 0;
 }
 
-#about-container {
+/* #about-container {
   margin: 0 auto;
   border: 7px solid white;
   border-radius: 1em;
   padding: 2em;
   width: 70vw;
-}
+} */
 
 .header_1 {
   min-height: 100vh;
@@ -213,9 +214,9 @@ b, strong {
   background-size: 10px 10px;
   background-position: 0 0, 15px 15px; */
   /* background: url(https://picsum.photos/1200/800?image=869) center center / cover no-repeat; */
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+  background: black url(../i/stars.png) repeat top center;
+  /* background-size: 400% 400%; */
   padding: 2em 7.5em; 
   color: white;
 }
@@ -2630,8 +2631,8 @@ b, strong {
 /* Smaller than 1200px */
 @media (max-width: 1199.99px) {
   .container.nopadding {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .navigation_mobile {
     display: block;
