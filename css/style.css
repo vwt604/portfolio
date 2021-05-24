@@ -11,9 +11,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  /* background:#ccc;
-height:10000px; */
 }
+
 
 header, section {
   overflow: hidden;
@@ -68,6 +67,7 @@ header nav {
 #section02 a {
   padding-top: 60px;
   position: absolute;
+  color: white;
 }
 
 #section02 a span {
@@ -77,7 +77,7 @@ header nav {
   width: 46px;
   height: 46px;
   margin-left: -23px;
-  border: 1px solid #000;
+  border: 1px solid white;
   border-radius: 100%;
   box-sizing: border-box;
 }
@@ -89,11 +89,12 @@ header nav {
   width: 16px;
   height: 16px;
   margin: -12px 0 0 -8px;
-  border-left: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   box-sizing: border-box;
+  color: white;
 }
 
 /* #project-container {
@@ -199,7 +200,7 @@ b, strong {
 
 #about-container {
   margin: 0 auto;
-  border: 7px solid #E7D2CC;
+  border: 7px solid white;
   border-radius: 1em;
   padding: 2em;
   width: 70vw;
@@ -207,12 +208,18 @@ b, strong {
 
 .header_1 {
   min-height: 100vh;
-  background: #fff;
+  /* background: #fff;
   background-image: radial-gradient(#eee 15%, transparent 0), radial-gradient(#eee 15%, transparent 0);
   background-size: 10px 10px;
-  background-position: 0 0, 15px 15px;
-  padding: 2em 7.5em;
+  background-position: 0 0, 15px 15px; */
+  /* background: url(https://picsum.photos/1200/800?image=869) center center / cover no-repeat; */
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  padding: 2em 7.5em; 
+  color: white;
 }
+
 
 /* Header 2 */
 .header_2 {
