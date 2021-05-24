@@ -12,8 +12,6 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   background:#000 url(../i/stars.png) repeat top center;
-  /* background:#ccc;
-height:10000px; */
 }
 
 header, section {
@@ -240,7 +238,7 @@ hr.solid {
 .clouds {
   background:transparent url(../i/clouds.png) repeat top center;
   z-index:2;
-  opacity: .4;
+  opacity: .6;
   animation:move-clouds-back 200s linear infinite;
 }
 
