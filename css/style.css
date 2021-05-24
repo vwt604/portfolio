@@ -155,6 +155,7 @@ b, strong {
   transform: rotate(-45deg);
   box-sizing: border-box;
 }
+
 #section03 a span::before {
   position: absolute;
   top: 0;
@@ -188,6 +189,13 @@ b, strong {
     opacity: 0;
   }
   100% { opacity: 0 }
+}
+
+.stack {
+  margin-top: 20px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
 }
 
 hr.solid {
