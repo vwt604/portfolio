@@ -119,13 +119,13 @@ b, strong {
 
 /* Custom CSS */
 
-#section03 a {
+#header-scroll a {
   padding-top: 60px;
   position: absolute;
   color: white;
 }
 
-#section03 a span {
+#header-scroll a span {
   position: absolute;
   top: 0;
   left: 50%;
@@ -137,7 +137,7 @@ b, strong {
   box-sizing: border-box;
 }
 
-#section03 a span::after {
+#header-scroll a span::after {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -152,7 +152,7 @@ b, strong {
   box-sizing: border-box;
 }
 
-#section03 a span::before {
+#header-scroll a span::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -168,6 +168,7 @@ b, strong {
   box-sizing: border-box;
 }
 
+/* Animating scroll button */
 @-webkit-keyframes sdb03 {
   0% { opacity: 0; }
   30% { opacity: 1; }
@@ -199,6 +200,7 @@ hr.solid {
   margin: 2em 0;
 }
 
+/* Animating clouds and star twinkling */
 @keyframes move-twink-back {
   from {background-position:0 0;}
   to {background-position:-10000px 5000px;}
